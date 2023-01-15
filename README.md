@@ -13,7 +13,7 @@ This Finale Edition of Addons fixed the bugs and users can enjoy the gameplay wi
   example: chrome://extensions edge://extensions
 4. Turn on "Developer mode" 
 5. Click the "Load unpacked" button
-6. Select the folder "TankTroubleAddonsFinale-master"
+6. Select the folder "TankTroubleAddonsFinale-main"
 7. Enjoy
 
 ## What's different?
