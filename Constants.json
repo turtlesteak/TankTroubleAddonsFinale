@@ -1,0 +1,62 @@
+{
+  "CSS_DEFAULT_STYLESHEET": "chrome.runtime.getURL('ttaddons\/css\/defaultStyles.css');",
+  "CSS_DARK_STYLESHEET": "chrome.runtime.getURL('ttaddons\/css\/styles.css');",
+  "CSS_DARK_STYLESHEET_CLASSIC": "chrome.runtime.getURL('classicStyle.css');",
+  "CSS_POPUP_DEFAULT_STYLESHEET": "chrome.runtime.getURL('popup\/popupLight.css');",
+  "CSS_POPUP_DARK_STYLESHEET": "chrome.runtime.getURL('popup\/popup.css');",
+  "CSS_ATKINSON_FONT": "chrome.runtime.getURL('ttaddons\/fonts\/Atkinson.css')",
+  "CSS_EMPTY": "chrome.runtime.getURL('empty.css')",
+  "URL_EMPTY": "chrome.runtime.getURL('')",
+  "REQUESTS": {
+    "darkTheme": "darkTheme",
+    "classicMouse": "classicMouse",
+    "systemMessages": "systemMessages",
+    "highResTanks": "highResTanks",
+    "musicTheme": "musicTheme",
+    "alternativeFont": "alternativeFont",
+    "imageEmotes": "imageEmotes",
+    "videoEmotes": "videoEmotes",
+    "konami": "konami"
+  },
+  "THEMES": {
+    "light": {
+      "theme": "light"
+    }
+  },
+  "MUSIC": {
+    "RussianMarch": "RussianMarch",
+    "RussianMarchPiano": "RussianMarchPiano"
+  },
+  "POPUP": {
+    "ELEMENT_ID": {
+      "darkTheme": "#darkTheme",
+      "classicMouse": "#classicMouse",
+      "systemMessages": "#systemMessages",
+      "musicTheme": "#musicTheme",
+      "alternativeFont": "#alternativeFont",
+      "highResTanks": "#highResTanks"
+    },
+    "ELEMENT_CLASS": {
+      "darkTheme": ".darkTheme",
+      "classicMouse": ".classicMouse",
+      "systemMessages": ".systemMessages",
+      "musicTheme": ".musicTheme",
+      "alternativeFont": ".alternativeFont",
+      "highResTanks": ".highResTanks"
+    },
+    "konami": "_______________________________________________OlZEASG7B9________@8(d3f6#1;<1mn0pq257uvwxy2____-_@8(D3F6#1;<1MN0PQ257UVWXY2_____"
+  },
+  "INSTALL_CONFIG": {
+    "darkTheme": "!!(window?.matchMedia('(prefers-color-scheme: dark)').matches)",
+    "musicTheme": true,
+    "classicMouse": true,
+    "systemMessages": false,
+    "alternativeFont": true
+  },
+  "LOCALSTORAGE_CONFIG": [
+    "musicTheme",
+    "classicMouse",
+    "systemMessages",
+    "highResTanks"
+  ]
+}
