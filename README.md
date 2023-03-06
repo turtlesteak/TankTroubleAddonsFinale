@@ -14,14 +14,19 @@ This Finale Edition of Addons fixed the bugs and users can enjoy the gameplay wi
 4. Turn on "Developer mode" 
 5. Click the "Load unpacked" button
 6. Select the folder "TankTroubleAddonsFinale-main"
-7. Enjoy
+7. Be sure that you have either disabled or removed the old Addons. You cannot use both at the same time.
+8. Enjoy
+
 
 ## What's different?
 * Removed
   * Maze Theme and Colored Bullets
   * Textured Paint (gradient tanks in the mazes)
+  * Local loading accessories (no more glitch accessory loading)
+
 
 These were necessary changes as a result of solving the bugs
+
 
 The Finale Edition also does not have the Changelog Popup or Addons Bulletin Board (on the news page).  
 The `/rules` command in chat will redirect to the [live rules document](https://docs.google.com/document/d/1xu7XeKKbfo1XLyIAYHs04GkqCZBLOeldp8raFX6Uy1Q/edit) instead of a saved PDF.  
