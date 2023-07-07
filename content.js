@@ -237,15 +237,6 @@
                             document.head.appendChild(inject);
                         });
 
-                        chrome.storage.local.get([Constants.REQUESTS.musicTheme], function (result) {
-                            var href = Constants.MUSIC.RussianMarch;
-                            if (result[Constants.REQUESTS.musicTheme]) {
-                                href = Constants.MUSIC.RussianMarchPiano;
-                            }
-                            var localMusic = document.createElement('script');
-                            localMusic.innerHTML = 'UIConstants.THEME_MUSIC[2]="assets/audio/' + href + '.m4a";UIConstants.THEME_MUSIC[0]="assets/audio/' + href + '.m4a";AudioManager._getActiveMusic=function(){var now=new Date;now.setUTCFullYear(1970);for(var i=0;i<Constants.MAZE_THEMES.COUNT;++i){if(Constants.MAZE_THEME_INFO[i].ACTIVE_DURATION_START!==undefined&&Constants.MAZE_THEME_INFO[i].ACTIVE_DURATION_END!==undefined){var start=Constants.MAZE_THEME_INFO[i].ACTIVE_DURATION_START;var end=Constants.MAZE_THEME_INFO[i].ACTIVE_DURATION_END;start.setUTCFullYear(1970);end.setUTCFullYear(1970);if(now>=start&&now<=end){return UIConstants.THEME_MUSIC[i]}}}return UIConstants.THEME_MUSIC[0]};AudioManager.init=function(){if(typeof AudioManager.music!=="undefined"&&AudioManager.music!==null){if((AudioManager.music._state="loaded")&&AudioManager.music.src!==AudioManager._getActiveMusic()){AudioManager.music.unload();AudioManager.music=new Howl({src:[d_url(AudioManager._getActiveMusic())],autoplay:true,loop:true,mute:!AudioManager.isMusicOn(),volume:.8})}}else{AudioManager.music=new Howl({src:[d_url(AudioManager._getActiveMusic())],autoplay:true,loop:true,mute:!AudioManager.isMusicOn(),volume:.8})}};document.addEventListener("musicTheme",function(result){if(typeof result!=="undefined"){var theme=result.detail.theme;UIConstants.THEME_MUSIC[2]="assets/audio/"+theme+".m4a";UIConstants.THEME_MUSIC[0]="assets/audio/"+theme+".m4a";AudioManager.init()}});';
-                            document.head.appendChild(localMusic);
-                        });
                         var popupHTML ='';
                         var popupTitle = '';
                         var popupSubmitText = '';
