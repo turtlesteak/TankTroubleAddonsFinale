@@ -2,6 +2,12 @@
 There should be no expectations of new features. There will only be bug fixes, assuming there is a fix. 
 
 
+## 2024.06.09
+Emojis  
+* Skeleton -> Skull
+  Skull is more commonly used
+
+
 ## 2023.07.07
 Music update prevented use of navigation tabs  
 * Removed: 
