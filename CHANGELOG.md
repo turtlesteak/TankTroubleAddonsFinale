@@ -4,7 +4,7 @@ There should be no expectations of new features. There will only be bug fixes, a
 
 ## 2024.06.09
 Emojis  
-* Skeleton -> Skull
+* Skeleton -> Skull  
   Skull is more commonly used
 
 
