@@ -1,3 +1,8 @@
+# Obsolete  
+There is a new Addons at [Chrome Web Store](https://chromewebstore.google.com/detail/tanktroubleaddons/ekjcldgkpfdnnffgliempinlpnjioebk) and [Source Code](https://github.com/asger-finding/tanktroubleaddons)
+
+-----
+
 # Addons Finale Edition
 The 15th anniversary update of TankTrouble introduced a new weapon - the booby trap! Addons users experienced bugs as a result of the update, since the extension had not been updated. It was officially deprecated, meaning there would be no more future updates.  
 This Finale Edition of Addons fixed the bugs and users can enjoy the gameplay without hindrance. 
